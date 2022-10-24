@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.todo {
+    
+    margin-top: 20vh;
+}
+
+
+.new-todo-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+
+
+.new-todo-div .new-task-buttons {
+    margin-left: auto;
+    display: flex;
+    gap: .5rem;
+}
+
+
+
+
+
+
+.completed {
+    text-decoration: line-through;
+}
